@@ -22,10 +22,11 @@ const router = createBrowserRouter([
   }
 ])
 
+//main.jsx เก่า เป็น Entry point ของ <app> แต่ไปเปลี่ยนให้เป็น <Router>
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Header/>
     <RouterProvider router={router}/>
-    <Footer/>
+    {/* <Footer/> */}
   </React.StrictMode>,
 )

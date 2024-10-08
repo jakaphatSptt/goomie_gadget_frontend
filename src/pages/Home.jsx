@@ -1,10 +1,13 @@
-//import React from 'react'
-
+import React from "react";
+import Hero_Section from "../components/Hero_Section";
+import Card_Category from "../components/Card_Category";
 function Home() {
   return (
-    <div>
-        <h1>this is home</h1>
-    </div>
+  <section >
+     <Hero_Section/>
+     <Card_Category/>
+  </section>
+   
   )
 }
 
