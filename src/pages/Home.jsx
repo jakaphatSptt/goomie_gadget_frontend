@@ -1,11 +1,17 @@
 import React from "react";
 import Hero_Section from "../components/Hero_Section";
-import Card_Category from "../components/Card_Category";
+import Category_Section from "../components/Category_Section";
+import Service_Section from "../components/Service_Section";
+import Banner_Earphone from "../components/Banner_Earphone";
+
 function Home() {
   return (
   <section >
      <Hero_Section/>
-     <Card_Category/>
+     <Category_Section/>
+     <Service_Section/>
+     <Banner_Earphone/>
+     
   </section>
    
   )
