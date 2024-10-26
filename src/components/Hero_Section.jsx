@@ -30,7 +30,7 @@ function Hero_Section() {
     autoplay: false,
   };
   return (
-    <div className="container max-w-[1200px] mx-auto mt-4">
+    <div className="container max-w-[1280px] mx-auto mt-4">
       <div className="rounded-3xl min-h-[550px] sm:min-h-[500px] hero-bg-color flex justify-center items-center">
         <div className="container pb-6">
           <Slider {...settings}>

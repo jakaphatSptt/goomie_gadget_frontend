@@ -28,22 +28,20 @@ const CardData = [
 ];
 
 const CardLayout = ({ description, category, image }) => {
-  const placeholderImage ="https://via.placeholder.com/300?text=No+Image";
+  const placeholderImage = "https://via.placeholder.com/300?text=No+Image";
   return (
     <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-      <a href="#">
-        <img 
-          className="rounded-t-lg w-full h-48 object-cover" 
-          src={image || placeholderImage} 
-          alt={category}
-        />
-      </a>
+      <img
+        className="rounded-t-lg w-full h-48 object-cover"
+        src={image || placeholderImage}
+        alt={category}
+      />
+
       <div className="p-5">
-        <a href="#">
-          <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-            {category}
-          </h5>
-        </a>
+        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+          {category}
+        </h5>
+
         <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
           {description}
         </p>
@@ -75,7 +73,7 @@ const CardLayout = ({ description, category, image }) => {
 
 function Category_Section() {
   return (
-    <div className="max-w-[1200px] mx-auto mt-6 grid grid-cols-2 sm:grid-cols-4 gap-4">
+    <div className="max-w-[1280px] mx-auto mt-6 grid grid-cols-2 sm:grid-cols-4 gap-4">
       {CardData.map((card) => (
         <CardLayout
           key={card.id}

@@ -29,7 +29,7 @@ const ServiceData = [
 ]
 function Service_Section() {
   return (
-    <div className="grid grid-cols-4 max-w-[1200px] mx-auto my-10 gap-4">
+    <div className="grid grid-cols-4 max-w-[1280px] mx-auto my-10 gap-4">
       {ServiceData.map((data, index)=>( 
         <div key={index} className='grid grid-rows-1 gap-1 text-center'>
           <div className='flex justify-center items-center row-span-1'>
