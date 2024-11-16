@@ -41,7 +41,7 @@ function User_profile_info() {
         <p className="text-center font-bold text-xl">{customerName}</p>
       </div>
 
-      <div className="p-8">
+      <div className="p-10">
         <div className="flex flex-col gap-4">
              {Data.map((item, index) => (
                 <button key={index} className ="flex gap-4 p-2 items-center w-full font-semibold text-2xl"> {item.icon} {item.title} </button>
