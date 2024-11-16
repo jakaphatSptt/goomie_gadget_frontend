@@ -3,6 +3,7 @@ import axios from "axios";
 import { useState, useEffect } from "react";
 
 const placeholderImage = "https://via.placeholder.com/300?text=No+Image";
+
 // const ProductData = [
 //     {
 //         image : '',
@@ -77,7 +78,7 @@ function Product_Earphone() {
                 className="rounded-2xl"
               />
               <p className="font-semibold text-lg w-11/12 mx-auto">
-                {capitalizeWords(data.name)}
+              {capitalizeWords(data.name)}
               </p>
               <p className="font-bold text-lg w-11/12 mx-auto">
                 ฿ {parseInt(data.price).toLocaleString()}

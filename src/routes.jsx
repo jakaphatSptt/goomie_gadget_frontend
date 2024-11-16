@@ -6,6 +6,7 @@ import Header from './layouts/Header'
 import Home from './pages/Home'
 import Products from "./pages/Product_List";
 import Footer from "./layouts/Footer";
+import User_Profile from "./pages/User_Profile";
 
 const router = createBrowserRouter([
   {
@@ -19,7 +20,11 @@ const router = createBrowserRouter([
   {
     path:"/about",
     element: <h2>about</h2>
-  }
+  },
+  {
+    path:"/user_profile",
+    element: <User_Profile/>
+  },
 ])
 
 //main.jsx เก่า เป็น Entry point ของ <app> แต่ไปเปลี่ยนให้เป็น <Router>
