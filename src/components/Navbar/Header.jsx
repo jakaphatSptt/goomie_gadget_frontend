@@ -35,8 +35,8 @@ function Header() {
             <div className="flex flex-shrink-0 items-center">
               <img
                 alt="Company Logo"
-                src="././public/goomie-icon.svg"
-                className="h-8 w-auto"
+                src="././public/goomie-logo-01-white.svg"
+                className="h-10 w-auto"
               />
             </div>
             <div className="hidden sm:ml-6 sm:block">
